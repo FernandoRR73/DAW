@@ -1,0 +1,12 @@
+{
+    "numero":73,
+    "cadena": "esto es una cadena",
+    "booleano": true,
+    "matriz": [0,1,2,3,4],
+    "objeto":
+    {
+        "clave1" : "valor1",
+        "clave2" : "valor2"
+    },
+    "nulo":null
+}

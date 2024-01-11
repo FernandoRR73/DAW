@@ -1,0 +1,37 @@
+Sistema de gestión de inventario. En un sistema de gestión de inventario, se manejan
+diferentes tipos de productos, cada uno con sus propias características. Cada producto tiene un
+código, nombre, precio y una categoría a la que pertenece. Además, se almacena información
+adicional como la fecha de ingreso y el stock disponible.
+Crea un archivo JSON que represente esta información de los productos en el inventario. Utiliza
+la estructura de objetos y arrays JSON adecuada.
+Escribe el código JSON resultante.
+
+<inventario>
+    <productos>
+        <producto codigo="001" categoria="Electrónicos">
+            <nombre>Televisor</nombre>
+            <precio>599.99</precio>
+            <fecha_ingreso>2023-07-15</fecha_ingreso>
+            <stock>10</stock>
+        </producto>
+        <producto codigo="002" categoria="Ropa">
+            <nombre>Camiseta</nombre>
+            <precio>29.99</precio>
+            <fecha_ingreso>2023-07-16</fecha_ingreso>
+            <stock>50</stock>
+        </producto>
+        <producto codigo="003" categoria="Hogar">
+            <nombre>Lámpara</nombre>
+            <precio>39.99</precio>
+            <fecha_ingreso>2023-07-17</fecha_ingreso>
+            <stock>20</stock>
+        </producto>
+        <!-- Agrega más productos según sea necesario -->
+    </productos>
+</inventario>
+
+----------------------------------------------------------
+
+-Los ficheros JSON no admiten comentarios
+
+- los atributos codigo y categoria se añaden como dos pares de claves mas

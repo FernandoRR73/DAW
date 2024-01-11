@@ -1,0 +1,15 @@
+Crea una página sencilla en la que se muestra el texto “demo”. Convierte un objeto
+JavaScript en un JSON string (cadena de caracteres JSON), y envíalo al servidor. Recuerda que la
+función JSON.stringify() permite tal conversión. Por otro lado, window.location nos permite
+enviar el JSON generado al servidor. En este ejemplo lo haremos mediante la ejecución de un
+php ficticio, al que llamaremos demo_json.php. Finalmente, almacena localmente el JSON
+generado, y a continuación cambia la propiedad del texto “demo” que aparece en la página por
+el valor de la propiedad “nombre” del objeto JS generado desde el JSON almacenado
+localmente.
+
+El objeto que convertiremos en JSON es:
+{nombre: "Mario", apellidos: "Sánchez López", edad: 26, curso: "DAW2", asignatura: "DEWC",
+ciudad: "El Puerto de Santa María}
+
+Nota: La sentencia que permite enviar al servidor es:
+window.location = "demo_json.php?x=" + myJSON;

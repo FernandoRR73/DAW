@@ -1,0 +1,21 @@
+.- La estructura básica de un JSON consiste en pares clave-valor encerrados entre llaves {}.
+Cada clave se representa como una cadena de caracteres y se separa de su valor por dos
+puntos (:). Los pares clave-valor se separan entre sí por comas (,). El valor puede ser de
+diferentes tipos:
+• Número (entero o de coma flotante)
+• Cadena (entre comillas dobles)
+• Booleano (verdadero o falso)
+• Matriz (entre corchetes)
+• Objeto (entre llaves)
+• nulo
+Crear una estructura JSON que contenga los siguientes tipos de datos JSON:
+• Número, cadena, booleano, matriz 1x5 (array con 5 valores), objeto y nulo. Los
+nombres de las claves en los pares clave-valor del JSON deben ser descriptivos del tipo
+de dato que contiene cada valor.
+
+-------------------------------------------------------------------
+
+Los datos que se manejan en un fichero JSON siempre van entre corchetes, van por pares "clave y valor":
+    - La clave va siempre entre comillas.
+
+    -El valor depende del tipo de datos que se maneje, si es una cadena de caracteres, este debe de estar entre comillas dobles

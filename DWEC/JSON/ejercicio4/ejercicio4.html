@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo JSON</title>
+</head>
+<body>
+    <p id="demo">Demo</p>
+
+<script>
+    // Objeto JavaScript
+    var objetoJS = {
+    nombre: "Mario",
+    apellidos: "Sánchez López",
+    edad: 26,
+    curso: "DAW2",
+    asignatura: "DEWC",
+    ciudad: "El Puerto de Santa María"
+    };
+
+    // Convertir el objeto JS a JSON string
+    var jsonStr = JSON.stringify(objetoJS);
+
+    // Almacenar el JSON localmente
+    localStorage.setItem('storedJSON', jsonStr);
+
+    // Cambiar el texto en la página por el valor de la propiedad "nombre"
+    document.getElementById("demo").innerText = objetoJS.nombre;
+
+    // Enviar el JSON al servidor (demo_json.php)
+    window.location = "demo_json.php?x=" + encodeURIComponent(jsonStr);
+</script>
+</body>
+</html>
