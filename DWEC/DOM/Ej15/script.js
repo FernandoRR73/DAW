@@ -10,6 +10,19 @@ for(i = 0; i<enlaces.length; i++)
     }
 }
 
+var cont = 0;
+
+for(i=0;i<enlaces.length;i++)
+{
+    if(enlaces[i].classList.contains("importante"))
+    {
+        enlaces[i].setAttribute("name",`importante ${cont}`);
+        cont++;
+    }
+}
+
+
+
 var parrafos = document.querySelectorAll("p");
 
 for(i=0; i<parrafos.length; i++)
@@ -18,10 +31,10 @@ for(i=0; i<parrafos.length; i++)
     {
         parrafos[i].classList.remove("importante");
         parrafos[i].classList.add("resaltado");
-        
     }
     else
     {
         parrafos[i].classList.add("normal");
     }
 }
+
