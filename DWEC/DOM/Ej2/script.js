@@ -1,16 +1,11 @@
 
-//obtener texto del documento
-const text = new DOMParser().parseFromString(document.documentElement.innerHTML, 'text/html');
-/*¡¡¡¡DOMParser  parsea el contenido del fichero en una cadena de texto!!!!!!*/
-
-
 
 //---1.Numero de enlaces de la pagina ------------------------------------------------------------------------------
 
 
 
 // saber la cantidad de enlaces que hay en el fichero html
-const nEnlaces = text.querySelectorAll('a').length;
+const nEnlaces = document.querySelectorAll('a').length;
 /*¡¡QuerySelectorAll devuelve una lista de los elementos del documento que coinciden con el grupo de selectores indicados!!!*/
 
 //mostrar por consola el numero de enlaces que hat en el fichero
@@ -23,7 +18,7 @@ console.log('en el fichero hay: ' + nEnlaces + ' enlaces');
 
 
 //crea una lista llamada enlaces 
-const enlaces = text.querySelectorAll('a');
+const enlaces = document.querySelectorAll('a');
 if (enlaces.length >=2)
 {
     const pEnlace = enlaces[enlaces.length-2].getAttribute('href');
@@ -75,10 +70,10 @@ console.log("la pagina tiene " + cont + " enlaces a http://prueba");
 
 
 //creo una lista de parrafos y guardo el ultimo en una constante
-const parrafo = text.querySelectorAll('p')[2];
+const parrafo = document.querySelectorAll('p')[2];
 
 //con el parrafo guardado compruebo el numero de enlaces que tiene este dentro
 const enlacesUP = parrafo.querySelectorAll('a').length;
 
-//muestro por consola en numero de enlaces en la pagina
-console.log("la pagina tiene " + enlacesUP + " enlaces");
+//muestro por consola en numero de enlaces en el ultimo parrafo
+console.log("el ultimo parrafo " + enlacesUP + " enlaces");
