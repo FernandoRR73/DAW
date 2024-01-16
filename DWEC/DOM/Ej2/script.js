@@ -5,7 +5,7 @@ const text = new DOMParser().parseFromString(document.documentElement.innerHTML,
 
 
 
-//---1.Numero de enlaces de la pagina -------------------------------------------------------------------------------
+//---1.Numero de enlaces de la pagina ------------------------------------------------------------------------------
 
 
 

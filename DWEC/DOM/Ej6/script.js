@@ -21,18 +21,27 @@ parrafos[2].appendChild(elemento);
 
 //2.inserta un párrafo de color rojo entre el tercer y el cuarto párrafos
 
+//creo un nuevo parrafo con createElement
 var nvParrafo = document.createElement('p');
+
+//le asigno un texto al parrafo con textContent
 nvParrafo.textContent = "este parrafo es de color rojo";
+
+//le asigno un color, en este caso rojo, con style.color
 nvParrafo.style.color='red';
 
+//obtengo el parrafo numero 4
 var cParrafo = document.getElementsByTagName('p')[3];
 
+//inserto el parrafo creado en la posicion anterior al parrafo 4 con insertBefore
 cParrafo.parentNode.insertBefore(nvParrafo, cParrafo);
 
 //elimina el segundo párrafo [1]
 
+//obtengo el parrafo el segunfo parrafo
 var sParrafo = document.getElementsByTagName('p')[1];
 
+//elimino el segundo parrafo
 sParrafo.parentNode.removeChild(sParrafo);
 
 
