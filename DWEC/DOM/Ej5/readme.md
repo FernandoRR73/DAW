@@ -14,6 +14,6 @@ document.getElementById("parrafo").value obtendria el valor de p es decir nombre
 
 - .textContent = , modifica el valor de un elemento html , por ejemlo document.getElementById("parrafo").textContent = "hola", mostraria el siguiente resultado
 
-    <code>
+    <pre>
     <p id="parrafo">hola<p>
-    </code>
+    </pre>
