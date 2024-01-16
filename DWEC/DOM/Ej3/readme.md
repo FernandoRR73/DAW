@@ -6,7 +6,4 @@ después  de  pulsarlo  por  primera  vez.  La  acción  de  pulsar  sobre  un  
 "Eventos" de JavaScript que se ven en el siguiente capítulo. En este ejercicio, sólo se debe saber 
 que al pinchar sobre el enlace, se ejecuta la función llamada muestra()
 
-
-- document.getElementById(), obtiene el elemento con el id includo entre parentesis, por ejemplo. document.getElementById("numero1"), obtiene del documento el elemento con el id numero1
-
 - .style.display se usa para modificar el display de un elemento del documento html
