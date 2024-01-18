@@ -1,4 +1,23 @@
 
+//añado un evento para obtener las coordenadas del raton
+document.addEventListener("mousemove", function(event)
+{
+    let px = event.clientX;
+    let py = event.clientY;
+    
+    let nx = event.pageX;
+    let ny = event.pageY;
+
+    muestraInformacion(["raton", `pagina[${px}, ${py}]`,`navegador [${nx}, ${ny}]`]);
+})
+
+document.addEventListener("keydown", function(event)
+{
+    let k = event.key
+
+    muestraInformacion(k);
+})
+
 
 
 function muestraInformacion(mensaje)
