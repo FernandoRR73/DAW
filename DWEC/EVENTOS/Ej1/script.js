@@ -2,7 +2,7 @@
 
 for (let i =1; i<=3;i++){
     // Se selecciona un elemento HTML con un ID específico utilizando la plantilla de cadena y se le asigna un evento de clic.
-    document.getElementById(`enlace_${i}`).addEventListener("click", () => mostrarOcultar(i));
+    document.getElementById(`enlace_${i}`).addEventListener("click",function(){mostrarOcultar(i)});
 }
 
 

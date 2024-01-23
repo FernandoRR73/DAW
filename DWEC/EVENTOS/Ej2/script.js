@@ -19,7 +19,7 @@ document.addEventListener("mousemove", function(event)
 document.addEventListener("keydown", function(event)
 {
     //obtengo la tecla pulsada
-    let k = event.key
+    let k = event.key;
 
     //obtengo el codigo de la tecla
     let codek = event.key.charCodeAt(0);
