@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    .bordes{
+        border: 2px solid black;
+    }
+</style>
+<body>
+    <h1>con form control</h1>
+    <form action="procesa.php">
+        <div class="form-group">
+            <div class="row">
+
+                <div class="col-4 bordes">
+                    <input class="form-control" type="text" name="text1" id="text1">
+                </div>
+                <div class="col-4 bordes">
+                    <textarea class="form-control" name="area1" id="area1" cols="20" rows="2"></textarea>
+                </div>
+                
+                <div class="col-4 bordes">
+                    <select class="form-control" name="select1" id="select1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </div>
+    
+    
+        </div>
+    </form>
+<br>
+    <h1>sin form control</h1>
+    <form action="procesa.php">
+        <div class="form-group">
+            <div class="row">
+
+                <div class="col-4 bordes">
+                    <input type="text" name="text1" id="text1">
+                </div>
+                <div class="col-4 bordes">
+                    <textarea name="area1" id="area1" cols="20" rows="2"></textarea>
+                </div>
+                
+                <div class="col-4 bordes">
+                    <select name="select1" id="select1">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+            </div>
+    
+    
+        </div>
+    </form>
+</body>
+</html>
