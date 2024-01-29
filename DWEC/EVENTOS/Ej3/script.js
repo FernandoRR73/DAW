@@ -45,3 +45,4 @@ function tamanoVentanaNavegador(){
 	
 	return dimensiones;
 }
+
