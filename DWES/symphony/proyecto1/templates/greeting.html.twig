@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    bienvenido {{nombre}}
+{% endblock %}
+
+{% block body %}
+    <h1 style="color:blue"> {{saludo}}</h1>
+    {% if nombre =="admin" %}
+        <h2>tienes acceso a toda la web</h2>
+    {% else %}
+        <h2>tienes acceso a tu usuario</h2>
+    {% endif %}
+
+{% endblock %}
