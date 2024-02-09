@@ -1,0 +1,128 @@
+.borde
+{
+    border : 2px solid black
+}
+
+.bg-green
+{
+    background-color: green;
+}
+
+.bg-pink
+{
+    background-color: fuchsia;
+}
+.bg-blue
+{
+    background-color: blue;
+}
+.bg-red
+{
+    background-color: red;
+}
+
+.bg-peach
+{
+    background-color: pink;
+}
+.bg-lblue
+{
+    background-color: lightblue;
+}
+@media( max-width:576px)
+{
+    .h
+    {
+        background-color: pink;
+        text-align: center;
+    }
+    .c1
+    {
+        text-align: left;
+        background-color: red;
+    }
+    .c2
+    {
+        text-align: center;
+        background-color: lightblue;
+    }
+    .c3
+    {
+        text-align: right;
+        background-color: red;
+    }
+    .f1
+    {
+        text-align: center;
+        background-color: yellow;
+    }
+    .f2
+    {
+        text-align: center;
+        background-color: yellow
+    }
+}
+@media( min-width:576px)
+{
+    .h
+    {
+        background-color: lightblue;
+        text-align: left;
+    }
+    .c1
+    {
+        text-align: left;
+        background-color: red;
+    }
+    .c2
+    {
+        text-align: right;
+        background-color: red;
+    }
+    .c3
+    {
+        text-align: center;
+        background-color: green;
+    }
+    .f1
+    {
+        text-align: center;
+        background-color: yellow;
+    }
+    .f2
+    {
+        text-align: center;
+        background-color: yellow;
+    }
+}
+@media( min-width:768px)
+{
+    .h
+    {
+        background-color: green;
+        text-align: left;
+    }
+    .c1
+    {
+        text-align: center;
+        background-color: red;
+    }
+    .c2
+    {
+        text-align: center;
+        background-color: red;
+    }
+    .c3
+    {
+        text-align: center;
+        background-color: red;
+    }
+    .f1
+    {
+        text-align: right;
+    }
+    .f2
+    {
+        text-align: left;
+    }
+}
