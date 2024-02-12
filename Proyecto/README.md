@@ -19,9 +19,9 @@
 
 #### Introducción
 
-    El proyecto se centra en el desarrollo de una aplicación web utilizando la biblioteca de JavaScript React para gestionar un campeonato de fútbol.
+El proyecto se centra en el desarrollo de una aplicación web utilizando la biblioteca de JavaScript React para gestionar un campeonato de fútbol.
     
-    Esta aplicación proporcionará una plataforma interactiva para que los usuarios puedan seguir los detalles del campeonato, incluyendo resultados de partidos, clasificaciones, estadísticas de jugadores y equipos, así como la programación de partidos futuros.
+Esta aplicación proporcionará una plataforma interactiva para que los usuarios puedan seguir los detalles del campeonato, incluyendo resultados de partidos, clasificaciones, estadísticas de jugadores y equipos, así como la programación de partidos futuros.
 
 #### Finalidad
 
