@@ -6,10 +6,13 @@
 
 + Diseño y planifición del proyecto
 
-+ Introducción
++ + Introducción
 
 + Finalidad
 
 + Medios necesarios
 
 + Planificación
+
+
+### Diseño y planificacion
