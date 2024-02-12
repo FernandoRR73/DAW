@@ -6,7 +6,7 @@
 
 + Diseño y planifición del proyecto
 
-+ + Introducción
+  + Introducción
 
 + Finalidad
 
