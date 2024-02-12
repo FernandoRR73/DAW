@@ -1,6 +1,6 @@
-## Torneo Local Futbol Sala
+# Torneo Local Futbol Sala
 
-# Autor: Fernando Ramírez Rodríguez
+## Autor: Fernando Ramírez Rodríguez
 
 ### Tabla de contenido
 
