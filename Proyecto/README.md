@@ -40,34 +40,33 @@ La finalidad principal de la aplicación es proporcionar una experiencia integra
 
 #### Planificación
 - Fase 1: Definición del Alcance y Preparación Inicial (Semana 1 - 2)
-- - Semana 1: Investigación y selección de las tecnologías a utilizar, incluyendo React y React Router.
+  - Semana 1: Investigación y selección de las tecnologías a utilizar, incluyendo React y React Router.
 Obtención de la clave de API de TheMovieDB.
-- - Semana 2:
-- - - Diseño inicial de la estructura de la aplicación y su interfaz de usuario.
-- - - Creación de un repositorio de código en un sistema de control de versiones como Git.
-- - - Configuración del entorno de desarrollo con React y las bibliotecas necesarias (Presentes en el
+  - Semana 2:
+     - Diseño inicial de la estructura de la aplicación y su interfaz de usuario.
+     - Creación de un repositorio de código en un sistema de control de versiones como Git.
+     - Configuración del entorno de desarrollo con React y las bibliotecas necesarias (Presentes en el
 codigo).
 
 - Fase 2: Desarrollo de Funcionalidades Principales (Semana 3 - 4)
-- - Semana 3:
-- - - Implementación de la interfaz de busqueda de equipos y jugadores
-- - - Configuración de rutas de navegación utilizando React Router.
-- - Semana 4:
-- - - Desarrollo de la visualización detallada de los equipos, incluyendo plantilla equipaciones y formaciones.
+  - Semana 3:
+     - Implementación de la interfaz de busqueda de equipos y jugadores
+     - Configuración de rutas de navegación utilizando React Router.
+  - Semana 4:
+     - Desarrollo de la visualización detallada de los equipos, incluyendo plantilla equipaciones y formaciones.
 Integración con la API de laLigaEA para obtener datos verificables.
 
 - Fase 3: Refinamiento y Mejora (Semana 5 - 6)
-- - Semana 5:
-- - - Optimización de la interfaz de usuario para una experiencia de usuario mejorada.
-- - - Corrección de errores identificados durante las pruebas iniciales.
-- - Semana 6:
-- - - Implementación de la base de datos con la creación de usuarios y de las opciones que tengan
-que ver con ellos, medidas de seguridad de datos.
-- - - Pruebas exhaustivas para garantizar el funcionamiento correcto de todas las funciones.
+  - Semana 5:
+     - Optimización de la interfaz de usuario para una experiencia de usuario mejorada.
+     - Corrección de errores identificados durante las pruebas iniciales.
+  - Semana 6:
+     - Implementación de la base de datos con la creación de usuarios y de las opciones que tenganque ver con ellos, medidas de seguridad de datos.
+     - Pruebas exhaustivas para garantizar el funcionamiento correcto de todas las funciones.
 
 - Fase 4: Documentación y Entrega (Semana 7 - 8)
-- - Semana 7:
-- - - Documentación completa del código y la estructura de la aplicación.
-- - - Preparación de documentación de usuario para futuros usuarios.
-Semana 8:
-- - - Revisión final del proyecto.
+  - Semana 7:
+     - Documentación completa del código y la estructura de la aplicación.
+     - Preparación de documentación de usuario para futuros usuarios.
+  - Semana 8:
+     - Revisión final del proyecto.
