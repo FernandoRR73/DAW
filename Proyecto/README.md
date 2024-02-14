@@ -1,4 +1,4 @@
-# Torneo Local Futbol Sala
+# Foro LaLigaEA
 
 ## Autor: Fernando Ramírez Rodríguez
 
